@@ -18,3 +18,8 @@ To get started with these projects, you need to have SQL Server installed on you
 - SQL Server Management Studio (SSMS)
 - Basic understanding of SQL and relational databases
 
+## Steps
+
+Identify performance bottlenecks.
+	Identify slow performing queries
+Optimize queries and indexing.
