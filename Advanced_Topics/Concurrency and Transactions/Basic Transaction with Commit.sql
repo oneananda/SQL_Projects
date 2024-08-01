@@ -1,3 +1,10 @@
+/*
+Scenario: You want to transfer money between two bank accounts. 
+You need to ensure that both accounts are updated properly, 
+and if any part of the process fails, 
+you want to roll back the entire transaction.
+*/
+
 BEGIN TRANSACTION;
 
 -- Deduct amount from Account A
