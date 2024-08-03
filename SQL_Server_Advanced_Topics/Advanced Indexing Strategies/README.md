@@ -44,6 +44,9 @@ ON Employees(FirstName, LastName);
 
 Covering indexes can significantly improve performance for read-heavy workloads by reducing the need to access the table data.
 
+### Filtered Indexes
+
+Filtered indexes are non-clustered indexes that include only a subset of the rows in the table, based on a filter predicate. They are useful for improving query performance and reducing index maintenance costs.
 
 
 
