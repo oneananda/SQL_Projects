@@ -22,3 +22,16 @@ CREATE CLUSTERED INDEX IX_Employees_EmployeeID
 ON Employees(EmployeeID);
 ```
 
+### Non-Clustered Index
+
+A non-clustered index, on the other hand, does not alter the physical order of the data. Instead, it creates a separate structure within the table that points back to the original data.
+
+```
+-- Create a non-clustered index on the 'LastName' column
+CREATE NONCLUSTERED INDEX IX_Employees_LastName
+ON Employees(LastName);
+```
+
+
+
+
