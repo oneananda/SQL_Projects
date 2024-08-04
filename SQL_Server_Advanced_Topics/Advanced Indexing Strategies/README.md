@@ -9,6 +9,7 @@ Delve into advanced indexing strategies to enhance query performance and manage 
 - [Filtered Indexes](#filtered-indexes)
 - [Columnstore Indexes](#columnstore-indexes)
 - [Index Maintenance](#index-maintenance)
+- [Automate Index Maintenance](#automate-index-maintenance)
 
 ## Clustered vs. Non-Clustered Indexes
 
