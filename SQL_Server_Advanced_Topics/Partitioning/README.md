@@ -18,3 +18,11 @@ Maps the partitions defined by the partition function to filegroups. Each filegr
 
 When creating a table or index, you can specify the partition scheme to use. SQL Server will then store data according to the partitions defined by the partition function and scheme.
 
+## Benefits of Partitioning
+
+- Query performance
+- Easy maintenance
+- Effificent data management 
+
+
+
